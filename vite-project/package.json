@@ -4,12 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    
+      "frontend": "vite",
+      "backend": "cd.. && cd my-backend && npm install && node index.js",
+      "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.7.2",
+    "concurrently": "^8.2.2",
     "vue": "^3.4.21"
   },
   "devDependencies": {
