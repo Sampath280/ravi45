@@ -1,9 +1,5 @@
 {
-    "mimeTypes": {
-      ".js": "application/javascript",
-      ".mjs": "application/javascript",
-      ".jsx": "application/javascript",
-      ".tsx": "application/javascript",
-      ".ts": "application/javascript"
-    }
+  "navigationFallback": {
+    "rewrite": "index.html"
   }
+}
