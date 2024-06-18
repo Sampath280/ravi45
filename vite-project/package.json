@@ -6,7 +6,7 @@
   "scripts": {
     "frontend": "vite",
     "backend": "cd.. && cd my-backend && npm install && node index.js",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "build": "vite build",
     "preview": "vite preview",
      "test": "npm install && node vite-project/my-backend/index.js"
