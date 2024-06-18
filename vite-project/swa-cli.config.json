@@ -2,11 +2,12 @@
   "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
   "configurations": {
     "vite-project": {
-      "appLocation": ".",
-      "outputLocation": "dist",
+      "appLocation": "vite-project",
+      "outputLocation": "vite-project/dist",
       "appBuildCommand": "npm run build",
       "run": "npm run dev",
-      "appDevserverUrl": "http://localhost:5173"
+      "appDevserverUrl": "http://localhost:8080",
+      "apiLocation": "my-backend"
     }
   }
 }
