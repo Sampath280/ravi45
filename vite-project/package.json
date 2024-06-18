@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "frontend": "vite",
+    "backend": "cd.. && cd my-backend && npm install && node index.js",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
     "build": "vite build",
     "preview": "vite preview",
      "test": "npm install && node vite-project/my-backend/index.js"
