@@ -4,7 +4,7 @@
       "appLocation": "./vite-project",
       "apiLocation": "./my-backend",
       "outputLocation": "dist",
-      "appBuildCommand": "npm run build", t
+      "appBuildCommand": "npm run build", 
       "apiBuildCommand": "npm install && node index.js", 
       "run": "npm run dev",
       "appDevserverUrl": "http://localhost:5173",
