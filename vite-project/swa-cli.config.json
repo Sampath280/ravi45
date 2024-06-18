@@ -4,11 +4,11 @@
       "appLocation": "./vite-project",
       "apiLocation": "./my-backend",
       "outputLocation": "dist",
-      "appBuildCommand": "npm run build", // assuming you are using Vite for the vite-project
+      "appBuildCommand": "npm run build", t
       "apiBuildCommand": "npm install && node index.js", 
       "run": "npm run dev",
       "appDevserverUrl": "http://localhost:5173",
       "apiDevserverUrl": "http://localhost:5000"
     }
   }
-}
+
