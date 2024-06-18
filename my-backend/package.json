@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
  "scripts": {
-    "test": "npm install && node index.js"
+    "start": "npm install && node index.js",
+     "test": "echo \"No tests yet...\""
   },
   "engines":{
     "node":">=18.0.0"
